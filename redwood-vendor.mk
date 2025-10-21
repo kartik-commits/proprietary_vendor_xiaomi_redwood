@@ -343,16 +343,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libcamxexternalformatutils \
-    libjpege \
-    libmctfengine_stub \
-    libmmcamera_bestats \
-    libmmcamera_cac3 \
-    libmmcamera_faceproc \
-    libmmcamera_faceproc2 \
-    libmmcamera_lscv35 \
-    libmmcamera_mfnr \
-    libmmcamera_mfnr_t4 \
-    libmmcamera_pdpc \
     audio.primary.lahaina \
     liba2dpoffload \
     libacdb-fts \
@@ -566,6 +556,8 @@ PRODUCT_PACKAGES += \
     libhdrdynamicootf \
     libipebpsstriping \
     libipebpsstriping170 \
+    libjpege \
+    libmctfengine_stub \
     libmiXmlParser \
     libmiai_portraitsupernight \
     libmialgo_ai_vision \
@@ -583,6 +575,14 @@ PRODUCT_PACKAGES += \
     libmiphone_capture_bokeh \
     libmiphone_preview_bokeh \
     libmm-color-convertor \
+    libmmcamera_bestats \
+    libmmcamera_cac3 \
+    libmmcamera_faceproc \
+    libmmcamera_faceproc2 \
+    libmmcamera_lscv35 \
+    libmmcamera_mfnr \
+    libmmcamera_mfnr_t4 \
+    libmmcamera_pdpc \
     libmpbase \
     libnanopb \
     libofflinedump \
