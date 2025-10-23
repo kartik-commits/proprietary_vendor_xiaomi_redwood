@@ -343,8 +343,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libcamxexternalformatutils \
-    audio.primary.lahaina \
-    liba2dpoffload \
+    audio.primary.redwood \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -362,7 +361,6 @@ PRODUCT_PACKAGES += \
     libqtigef \
     libresampler \
     libsndmonitor \
-    libssrec \
     libvideoNS \
     libvideoutils \
     com.qti.actuator.redwood_sunny_s5khm2sd_dw9800_wide \
@@ -681,6 +679,8 @@ PRODUCT_PACKAGES += \
     misound_karaokemix_res \
     misound_res_headphone \
     misound_res_spk \
+    liba2dpoffload_odm \
+    libssrec_odm \
     vendor.xiaomi.hardware.citsensorservice@1.1-service.xml \
     batterysecret \
     hvdcp_opti \
