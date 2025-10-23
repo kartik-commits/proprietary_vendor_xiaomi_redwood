@@ -104,7 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal@1.0-service.rc \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
-    vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc \
     vendor/xiaomi/redwood/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/redwood/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/xiaomi/redwood/proprietary/vendor/etc/mdss_dsi_m20_36_02_0a_dsc_vid_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_m20_36_02_0a_dsc_vid_mi.xml \
@@ -487,7 +486,6 @@ PRODUCT_PACKAGES += \
     camera.xiaomi \
     com.qti.chi.override \
     fingerprint.goodix.default \
-    vendor.xiaomi.hardware.citsensorservice@1.1-impl \
     lib3rdpartcontext \
     libAF \
     libI420colorconvert \
@@ -628,8 +626,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qspmhal@1.0 \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
-    vendor.xiaomi.hardware.citsensorservice@1.0 \
-    vendor.xiaomi.hardware.citsensorservice@1.1 \
     bm2n06 \
     bm2n08 \
     bm2n13 \
@@ -677,10 +673,8 @@ PRODUCT_PACKAGES += \
     misound_res_spk \
     liba2dpoffload_odm \
     libssrec_odm \
-    vendor.xiaomi.hardware.citsensorservice@1.1-service.xml \
     batterysecret \
     hvdcp_opti \
-    vendor.xiaomi.hardware.citsensorservice@1.1-service \
     init.qcom.sensors \
     init.qti.chg_policy \
     sensors.qti \
