@@ -489,6 +489,7 @@ PRODUCT_PACKAGES += \
     lib3rdpartcontext \
     libAF \
     libI420colorconvert \
+    libQnnHtpStub \
     libSNPE \
     libXMFaceFocus \
     libadreno_app_profiles \
